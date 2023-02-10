@@ -3,6 +3,10 @@ import menu from '../../../images/menu.svg'
 import close from '../../../images/close.svg'
 import heroImg from '../../../images/illustration-working.svg'
 import formImg from '../../../images/bg-shorten-desktop.svg'
+import instagram from '../../../images/icon-instagram.svg'
+import pinterest from '../../../images/icon-pinterest.svg'
+import twitter from '../../../images/icon-twitter.svg'
+import facebook from '../../../images/icon-facebook.svg'
 
 
 
@@ -42,4 +46,58 @@ export const hero = {
 export const form = {
     img: formImg,
     placeholder: "Shorten a link here..."
+}
+
+export const previlegies = {
+    title: "Advanced statistics",
+    subtitle: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+
+
+    card1: {
+        title: "Brand Recognition",
+        subtitle: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati eaque cupiditate quibusdam facilis minima pariatur vel aut? Nobis, est quo.",
+    },
+    card2: {
+        title: "Detailed Records",
+        subtitle: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati eaque cupiditate quibusdam facilis minima pariatur vel aut? Nobis, est quo.",
+    },
+    card3: {
+        title: "Fully customizable",
+        subtitle: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati eaque cupiditate quibusdam facilis minima pariatur vel aut? Nobis, est quo.",
+    },
+}
+
+export const footer = {
+    social: {
+        instagram: instagram,
+        facebook: facebook,
+        pinterest: pinterest,
+        twitter: twitter
+    },
+    features: {
+        title: "Features",
+        sublinks: [
+            'Link Shortening',
+            'Branded Links',
+            'Analytics',
+        ]
+    },
+    resources: {
+        title: "Resources",
+        sublinks: [
+            "Blog",
+            "Developers",
+            "Support"
+        ]
+    },
+    company: {
+        title: "Company",
+        sublinks: [
+            "About",
+            "Our Team",
+            "Careers",
+            "Contact"
+        ]
+    },
+    logo: logo
 }

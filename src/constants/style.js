@@ -11,5 +11,8 @@ export const styles = {
         paragraph: ""
     },
 
-    navUl: "sm:flex hidden items-center gap-6"
+    navUl: "sm:flex hidden items-center gap-6",
+
+    heroFeatures: "flex flex-col items-center justify-center text-center max-w-[500px] m-auto",
+    heroCard: "flex flex-col items-left max-w-[390px] px-[30px] py-[35px] bg-white rounded-[5px] relative h-fit"
 }
