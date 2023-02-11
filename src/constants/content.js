@@ -1,4 +1,5 @@
 import logo from '../../../images/logo.svg'
+import logoWhite from '../../../images/logo-white.svg'
 import menu from '../../../images/menu.svg'
 import close from '../../../images/close.svg'
 import heroImg from '../../../images/illustration-working.svg'
@@ -68,12 +69,24 @@ export const previlegies = {
 }
 
 export const footer = {
-    social: {
-        instagram: instagram,
-        facebook: facebook,
-        pinterest: pinterest,
-        twitter: twitter
-    },
+    social: [
+        {
+            link: "https://www.instagram.com/wnd.knd/",
+            icon: instagram
+        },
+        {
+            link: "https://www.facebook.com/viacheslav.demchenko.7",
+            icon: facebook
+        },
+        {
+            link: "https://pl.pinterest.com/wndknd/",
+            icon: pinterest,
+        },
+        {
+            link: "https://twitter.com/Viaches00065798",
+            icon: twitter
+        }
+    ],
     features: {
         title: "Features",
         sublinks: [
@@ -99,5 +112,5 @@ export const footer = {
             "Contact"
         ]
     },
-    logo: logo
+    logo: logoWhite
 }

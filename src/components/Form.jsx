@@ -32,11 +32,11 @@ export const Form = () => {
 
   return (
     <>
-      <section className='w-full px-[50px] py-[40px] bg-[#3a3053] rounded-md overflow-hidden relative z-[20]'>
-        <form autoComplete='off' onSubmit={handleSubmit(onSubmit)} className='flex gap-5 z-10 relative'>
+      <section className='w-full md:px-[50px] md:py-[40px] py-[20px] px-[25px] bg-[#3a3053] rounded-md overflow-hidden relative z-[20]'>
+        <form autoComplete='off' onSubmit={handleSubmit(onSubmit)} className='flex sm:flex-row flex-col gap-5 z-10 relative'>
           <input
             type="url"
-            className={`rounded-md px-5 py-3 text-[20px] font-semibold outline-none flex-1 ${errors.shortenLink && "outline-[#a73131]"}`}
+            className={`rounded-md px-5 py-3 md:text-[20px] text-[15px] font-semibold outline-none flex-1 ${errors.shortenLink && "outline-[#a73131]"}`}
             placeholder={form.placeholder}
             {...register("shortenLink", {
               required: "Please enter valid link.",

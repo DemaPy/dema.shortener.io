@@ -18,9 +18,9 @@ function App() {
         </main>
         <main className={`${styles.constainer} ${styles.paddingX} m-auto overflow-hidden`}>
           <Features />
-          <CallToAction />
-          <Footer />
         </main>
+        <CallToAction />
+        <Footer />
       </div>
     </>
 

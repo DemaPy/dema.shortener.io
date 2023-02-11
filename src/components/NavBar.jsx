@@ -8,7 +8,6 @@ export const NavBar = () => {
 
   const handleClick = () => {
     setToggle(prev => !prev)
-    console.log('test')
   }
 
   return (
@@ -55,7 +54,9 @@ export const NavBar = () => {
                 <a className={`${styles.text.navbar} text-white`} href="#login">Login</a>
               </li>
               <li className='w-full text-center'>
-                <a className={`${styles.text.navbar} ${styles.text.loginBtn} block w-full`} href="#signup">Sign Up</a>
+                <a className={`${styles.text.navbar} ${styles.text.loginBtn} block w-full`} href="#signup">
+                  <Button text={"Sign Up"} style={"w-full rounded-full md:scale-[1] scale-[1.1] py-[15px]"}/>
+                </a>
               </li>
             </ul>
           </div>
